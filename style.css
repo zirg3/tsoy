@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.cont {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.wrap2 {
+    overflow: hidden;
+}
+h2{
+    word-break: break-word;
+    text-align: center;
+    margin: 80px;
+    font-size: 60px ;
+    font-family: 'Alumni Sans', sans-serif;
+    
+}
+header{
+        background: url("images/fon.jpg") center / cover no-repeat;
+        min-height: 700px;
+        display: flex;
+        justify-content: right;
+    }
+a{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+    padding-top: 20px;
+    text-align: right;
+    font-family: Arial;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px white;
+    padding-top: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+a:hover{
+    color: cornflowerblue;
+}
+h1{
+    word-break: break-word;
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160px ;
+    text-shadow: 10px 10px 5px black;
+    opacity: .8;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-element{
+    margin-left: 5px;
+}
+.container{
+    margin: 0 auto;
+}
+b{
+    font-size: 70px;
+}
+h5{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    opacity: .8;
+    margin-top: -25px;
+    font-family: 'Caveat', cursive;
+}
+h2{
+    margin-right: 20px;
+}
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+p{
+    font-size: 25px;
+}
+.text_odin{
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+h3{
+    font-size: 40px;
+}
+.zag_odin{
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.foto_odin{
+    margin-top: 50px;
+}
+.zag_dva{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_dva{
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.foto_dva{
+    margin-top: 50px;
+}   
+.zag_dva_dva{
+    margin-top: 0px;
+    font-family: 'Caveat', cursive;
+}
+h6{
+    color: black;
+    font-size: 20px;
+}
+.zag_tri{
+    margin-top: 180px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_tri{
+    text-align: left;
+    margin-top: 50px; 
+    font-family: 'Alumni Sans', sans-serif;
+}
+.foto_tri{
+    margin-top: 50px;
+}
+.muz_odin{
+    margin-top: 10px;
+}
+.zag_hetire{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_hetire{
+    text-align: left;
+    margin-top: 50px; 
+    font-family: 'Alumni Sans', sans-serif;
+}
+.foto_hetire{
+    margin-top: 50px;
+}
+.muz_dva{
+    margin-top: 10px;
+}
+.zag_hetire_hetire{
+    font-family: 'Caveat', cursive;
+}
+.zag_pyat{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_pyat{
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.foto_pyat{
+    margin-top: 50px;
+}
+.zag_pyat_pyat{
+    font-family: 'Caveat', cursive;
+}
+.knopka{
+    position: relative;
+    right: 20%;
+    text-align: end;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+}
+.zag_1{
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_1{
+
+    margin-top: 30px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.photo_1{
+
+    
+}
+.zag_2{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.text_2{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+.photo_2{
+}
+.zag_zag_2{
+    font-family: 'Caveat', cursive;
+    margin-top: 10px;
+}
+.zag_3{
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.text_3{
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.photo_3{
+}
+.zag_zag_3{
+    font-family: 'Caveat', cursive;
+}
+.muz_1{
+    margin-top: 10px;
+}
+.zag_4{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.text_4{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.text_1_1{
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.photo_1_1{
+    margin-left: 1000px;
+    margin-top: -470px;
+}
+.text_2_2{
+    margin-left: 1000px;
+    margin-top: 100px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.photo_2_2{
+    margin-left: 200px;
+    margin-top: -460px;
+}
+.text_3_3{
+    margin-left: 200px;
+    margin-top: 150px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.photo_3_3{
+    margin-left: 1000px;
+    margin-top: -490px;
+}
+.text_4_4{
+    margin-left: 1000px;
+    margin-top: 200px;
+    font-family: 'Alumni Sans', sans-serif
+}
+.photo_4_4{
+    margin-left: 200px;
+    margin-top: -500px;
+}
